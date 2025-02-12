@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 
 public class Library {
-    ArrayList<Book> books = new ArrayList<Book>();
+    ArrayList<Book> books = new ArrayList<>();
 
     public void addBook(Book book) {
         System.out.println("Book added to library: " + book.title);
